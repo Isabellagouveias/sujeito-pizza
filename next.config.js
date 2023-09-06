@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  onDemandEntries: {
+    maxInactiveAge: 0,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
